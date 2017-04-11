@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.nstech.simpleimageanimation'                              // Maven Group ID for the artifact
+group = 'SimpleImageAnimationLibrary'                              // Maven Group ID for the artifact
 
 install {
     repositories.mavenInstaller {
