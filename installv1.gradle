@@ -9,7 +9,7 @@ install {
             project {
                 packaging 'aar'
                 groupId 'com.nstech.simpleimageanimation'
-                artifactId 'Image-Animation'
+                artifactId 'image-animation'
 		version '0.3'
 
                 // Add your description here
