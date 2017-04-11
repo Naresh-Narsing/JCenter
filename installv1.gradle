@@ -10,6 +10,7 @@ install {
                 packaging 'aar'
                 groupId 'com.nstech.simpleimageanimation'
                 artifactId 'Image-Animation'
+		version '0.2'
 
                 // Add your description here
                 name 'ImageAnimation'
