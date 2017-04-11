@@ -39,7 +39,7 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = maven
+        repo = Maven
         name = Image-Animation
         desc = libraryDescription
         websiteUrl = siteUrl
