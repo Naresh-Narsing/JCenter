@@ -40,7 +40,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'Maven'
-        name = 'Image-Animation'
+        name = 'com.nstech.simpleimageanimation'
         desc = libraryDescription
         websiteUrl = siteUrl
         vcsUrl = gitUrl
