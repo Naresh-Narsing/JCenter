@@ -14,8 +14,8 @@ install {
                 // Add your description here
                 name 'ImageAnimation'
                 description 'Simple Image Animation On Image'
-                url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'
-
+                url siteUrl
+		
                 // Set your license
                 licenses {
                     license {
