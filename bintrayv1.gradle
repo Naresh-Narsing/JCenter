@@ -39,8 +39,8 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = "Maven"
-        name = "Image-Animation"
+        repo = 'Maven'
+        name = 'Image-Animation'
         desc = libraryDescription
         websiteUrl = siteUrl
         vcsUrl = gitUrl
