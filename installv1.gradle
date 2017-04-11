@@ -9,13 +9,13 @@ install {
             project {
                 packaging 'aar'
                 groupId 'com.nstech.simpleimageanimation'
-                artifactId 'Image-Animation'
+                artifactId 'SimpleImageAnimationLibrary'
 		version '0.2'
 
                 // Add your description here
                 name 'ImageAnimation'
                 description 'Simple Image Animation On Image'
-                url siteUrl
+                url siteUrl	
 		
                 // Set your license
                 licenses {
