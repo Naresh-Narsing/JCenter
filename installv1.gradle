@@ -8,7 +8,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                groupId 'com.nstech.simpleimageanimation'
+                groupId 'Image-Animation'
                 artifactId 'Image-Animation'
 		version '0.2'
 
