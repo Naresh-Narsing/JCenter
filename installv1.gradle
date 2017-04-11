@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = com.nstech.simpleimageanimation                               // Maven Group ID for the artifact
+group = 'com.nstech.simpleimageanimation'                              // Maven Group ID for the artifact
 
 install {
     repositories.mavenInstaller {
@@ -8,26 +8,26 @@ install {
         pom {
             project {
                 packaging 'aar'
-                groupId com.nstech.simpleimageanimation
-                artifactId Image-Animation
+                groupId 'com.nstech.simpleimageanimation'
+                artifactId 'Image-Animation'
 
                 // Add your description here
-                name ImageAnimation
-                description Simple Image Animation On Image
-                url https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary
+                name 'ImageAnimation'
+                description 'Simple Image Animation On Image'
+                url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'
 
                 // Set your license
                 licenses {
                     license {
-                        name The Apache Software License, Version 2.0
-                        url http://www.apache.org/licenses/LICENSE-2.0.txt
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
                     }
                 }
                 developers {
                     developer {
-                        id naresh
-                        name Naresh Narsing
-                        email nareshnarsing38@gmail.com
+                        id 'naresh'
+                        name 'Naresh Narsing'
+                        email 'nareshnarsing38@gmail.com'
                     }
                 }
                 scm {
