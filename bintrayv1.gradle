@@ -1,6 +1,6 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = "0.0.2"
+version = "0.0.1"
 
 if (project.hasProperty("android")) { // Android libraries
     task sourcesJar(type: Jar) {
@@ -40,7 +40,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'maven'
-        name = 'image-animation'
+        name = 'simpleimageanimation'
         desc = 'Simple Image Animation'
         websiteUrl = 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'
         vcsUrl = 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary.git'

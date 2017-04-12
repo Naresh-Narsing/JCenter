@@ -9,10 +9,10 @@ install {
             project {
                 packaging 'aar'
                 groupId 'com.nstech'
-                artifactId 'image-animation'
+                artifactId 'simpleimageanimation'
 
                 // Add your description here
-                name 'image-animation'
+                name 'simpleimageanimation'
                 description 'Simple Image Animation'
                 url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'	
 		
