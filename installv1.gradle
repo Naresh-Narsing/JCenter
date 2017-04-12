@@ -12,7 +12,7 @@ install {
                 artifactId 'image-animation'
 
                 // Add your description here
-                name 'ImageAnimation'
+                name 'image-animation'
                 description 'Simple Image Animation'
                 url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'	
 		
