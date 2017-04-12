@@ -1,6 +1,6 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = 0.1
+version = 0.0.1
 
 if (project.hasProperty("android")) { // Android libraries
     task sourcesJar(type: Jar) {
@@ -39,16 +39,16 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = 'Maven'
-        name = 'Image-Animation'
-        desc = libraryDescription
-        websiteUrl = siteUrl
-        vcsUrl = gitUrl
-        licenses = allLicenses
+        repo = 'maven'
+        name = 'image-animation'
+        desc = 'Simple Image Animation'
+        websiteUrl = 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'
+        vcsUrl = 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary.git'
+        licenses = ["Apache-2.0"]
         publish = true
         publicDownloadNumbers = true
         version {
-            desc = libraryDescription
+            desc = 'Simple Image Animation'
             gpg {
                 sign = true //Determines whether to GPG sign the files. The default is false
                 passphrase = properties.getProperty("bintray.gpg.password")

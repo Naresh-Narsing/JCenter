@@ -10,12 +10,11 @@ install {
                 packaging 'aar'
                 groupId 'com.nstech'
                 artifactId 'image-animation'
-		version '0.1'
 
                 // Add your description here
                 name 'ImageAnimation'
-                description 'Simple Image Animation On Image'
-                url siteUrl	
+                description 'Simple Image Animation'
+                url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'	
 		
                 // Set your license
                 licenses {
@@ -32,9 +31,9 @@ install {
                     }
                 }
                 scm {
-                    connection gitUrl
-                    developerConnection gitUrl
-                    url siteUrl
+                    connection 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary.git'
+                    developerConnection 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary.git'
+                    url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'
 
                 }
             }
