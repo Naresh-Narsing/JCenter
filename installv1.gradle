@@ -36,11 +36,6 @@ install {
                     url 'https://github.com/Naresh-Narsing/SimpleImageAnimationLibrary'
 
                 }
-		
-  		   maven {
-    	           url  "http://dl.bintray.com/nareshveer/maven" 
-   		 }
-		
             }
         }
     }
